@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb32332-9dea-4b94-9d8b-e46eaeffe99b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/KarateTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/data/authCredentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/getRequest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/postRequest.feature" afterDir="false" />
+    <list default="true" id="5bb32332-9dea-4b94-9d8b-e46eaeffe99b" name="Changes" comment="Katate implementing Steps: 01.1 Get request , 01.2 post request to get token, 02.1 Extract and store token value">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/data/booking1Room.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/data/tokenValue.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/getRoom1N.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/postBooking1Room.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/KarateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/KarateTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/getRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/getRoom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/postRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/homework0702karate/step01/getRequest/postRetrieveToken.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,15 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/carlo/IdeaProjects/homework0702Karate/src/test/java/com/example/homework0702karate/step01/getRequest"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlo/IdeaProjects/homework0702RestAssured&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\carlo\IdeaProjects\homework0702Karate\src\test\java\com\example\homework0702karate\step01\getRequest" />
@@ -116,8 +115,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663487575431</updated>
-      <workItem from="1663487576724" duration="6029000" />
+      <workItem from="1663487576724" duration="11197000" />
+      <workItem from="1663624636939" duration="2129000" />
+      <workItem from="1663677900985" duration="11586000" />
     </task>
+    <task id="LOCAL-00001" summary="Katate implementing Steps: 01.1 Get request , 01.2 post request to get token, 02.1 Extract and store token value">
+      <created>1663556955917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663556955917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +142,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Katate implementing Steps: 01.1 Get request , 01.2 post request to get token, 02.1 Extract and store token value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Katate implementing Steps: 01.1 Get request , 01.2 post request to get token, 02.1 Extract and store token value" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

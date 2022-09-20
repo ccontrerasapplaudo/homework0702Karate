@@ -11,3 +11,5 @@ Feature: To test the post endpoint and login of automationintesting.online
     And status 200
     * def tokenValueStored = responseCookies.token.value
     And print "Token value:", tokenValueStored
+    And karate.write(tokenValueStored, "/data/tokenValue.txt")
+

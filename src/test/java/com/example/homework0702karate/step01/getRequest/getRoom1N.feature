@@ -7,3 +7,4 @@ Feature: To test the get endpoint of automationintesting.online
     When method get
     Then status 200
     And print response
+
